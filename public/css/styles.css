@@ -1,0 +1,79 @@
+/* Global =============== */
+:root{
+    --dark-blue: #363F5F;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F0F2F5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: min(90vw, 800px);
+    margin: auto;
+}
+
+/* Header =============== */
+h2{
+    margin-top: 3.2rem;
+    margin-bottom: 0.8rem;
+    color: var(--dark-blue);
+    font-weight: 400;
+}
+
+/* Header =============== */
+header{
+    background-color: #2D4A22;
+    padding: 2rem 0 10rem;
+    text-align: center;
+}
+
+#logo{
+    color: #FFF;
+    font-weight: 100;
+}
+
+/* Balance ============== */
+#balance{
+    margin-top: -8rem;
+}
+
+#balance h2{
+    color: #FFF;
+    margin-top: 0;
+}
+
+/* Cards =============== */
+.card{
+    background-color: #FFF;
+    padding: 1.5rem 2rem;
+    border-radius: 0.25rem;
+    margin-bottom: 2rem;
+    color: var(--dark-blue);
+}
+
+.card h3{
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.card p{
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.card.total{
+    background-color: #49AA26;
+    color: #FFF;
+}
+
+/* Footer ============== */
+footer{
+    text-align: center;
+}
