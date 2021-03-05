@@ -19,7 +19,36 @@ body{
     margin: auto;
 }
 
-/* Header =============== */
+.sr-only{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+/* Links e Buttons ============ */
+a{
+    color: #F25C05;
+    text-decoration: none;
+    font-weight: 400;
+    transition: opacity 200ms;
+}
+
+a:hover{
+    opacity: 0.8;
+}
+
+.button.new{
+    display: block;
+    margin-bottom: .8rem;
+}
+
+/* Title =============== */
 h2{
     margin-top: 3.2rem;
     margin-bottom: 0.8rem;
@@ -32,11 +61,6 @@ header{
     background-color: #2D4A22;
     padding: 2rem 0 10rem;
     text-align: center;
-}
-
-#logo{
-    color: #FFF;
-    font-weight: 100;
 }
 
 /* Balance ============== */
@@ -61,6 +85,9 @@ header{
 .card h3{
     font-weight: 400;
     font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .card p{
@@ -82,8 +109,7 @@ header{
 
 table th{
     background-color: #FFF;
-    opacity: 0.6;
-    
+    opacity: 0.8;
     font-weight: normal;
     padding: 1rem 2rem;
     text-align: left;
@@ -99,6 +125,7 @@ thead tr th{
 
 table tbody tr{
     opacity: 0.7;
+    transition: opacity 200ms;
 }
 
 table tr:hover{
